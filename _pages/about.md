@@ -18,62 +18,58 @@ redirect_from:
 
 # 👨‍🎓 About me
 
-I am currently a 2nd-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>, under the guidance of [Prof. Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq/). I got B.Eng. degree in Robot Engineering at [South China University of Technology](https://www.scut.edu.cn/) <img src='./images/scut.jpg' style='width: 2em;'>. 
+I am currently a 1st-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science (Yingcai Honor School) at [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'>. 
 
-Currently, I’m interested in 3D computer vision, specializing in ​​human-centric tasks such as digital avatar creation and 3D scene reconstruction, leveraging techniques including 3D Gaussian Splatting.​
+Currently, I’m interested in AIGC, specializing in ​Video Generation.​
  
-More about me through [CV-cn](_pages/files/Eastbean_CV.pdf).
 
 <br>
 
 
-# 💻 Experience
+%# 💻 Experience
 
-08/2024 ~ 03/2025, I was a research intern at the [IDEA](https://www.idea.edu.cn/).
+%08/2024 ~ 03/2025, I was a research intern at the [IDEA](https://www.idea.edu.cn/).
 
-<br>
+%<br>
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/GS-W.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/CanonSwap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a href="https://arxiv.org/abs/2407.06984" style="font-size: 22px; color: #483D8B; text-decoration: none">**Gaussian in the Wild: 3D Gaussian Splatting for Unconstrained Image Collections**</a><br>
-<span style="font-size: 18px;">**Dongbin Zhang\*** , Chuming Wang\*, Weitao Wang, Peihao Li, Minghan Qin, Haoqian Wang†</span><br>
-<span style="font-size: 18px;">[**Page**](https://eastbeanzhang.github.io/GS-W/)   [**Paper**](https://arxiv.org/pdf/2403.15704)   [**Code**](https://github.com/EastbeanZhang/Gaussian-Wild)</span>
+<a href="https://arxiv.org/abs/2407.06984" style="font-size: 22px; color: #483D8B; text-decoration: none">**CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation**</a><br>
+<span style="font-size: 18px;">**Xiangyang Luo** , Ye Zhu†, Yunfei Liu, Lijian Lin, Cong Wan, Zijian Cai, Shao-Lun Huang†, Yu Li</span><br>
+<span style="font-size: 18px;">[**Page**](https://luoxyhappy.github.io/CanonSwap/)  </span>
 
-<span style="font-size: 18px;">-  GS-W utilizes 3D Gaussian Splatting with introduced separated intrinsic and dynamic appearance to reconstruct scenes from uncontrolled images, achieving high-quality results.</span>
+<span style="font-size: 18px;">-  CanonSwap decouples motion information from appearance to enable high-fidelity and consistent video face swapping.</span>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/HRAvatar.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2025</div><img src='images/OIA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a href="https://arxiv.org/abs/2408.13770" style="font-size: 22px; color: #483D8B; text-decoration: none">**HRAvatar: High-Quality and Relightable Gaussian Head Avatar**</a><br>
-<span style="font-size: 18px;">**Dongbin Zhang**, Yunfei Liu, Lijian Lin, Ye Zhu, Kangjie Chen, Minghan Qin, Yu Li†, Haoqian Wang†</span><br>
-<span style="font-size: 18px;">[**Page**](https://eastbeanzhang.github.io/HRAvatar/) [**Paper**](https://arxiv.org/pdf/2503.08224)   [**Code**](https://github.com/Pixel-Talk/HRAvatar)</span>
+<a href="https://www.arxiv.org/pdf/2503.23353" style="font-size: 22px; color: #483D8B; text-decoration: none">**Object Isolated Attention for Consistent Story Visualization**</a><br>
+<span style="font-size: 18px;">**Xiangyang Luo**, Junhao Cheng, Yifan Xie, Xin Zhang, Tao Feng, Zhou Liu, Fei Ma†, Fei Yu</span><br>
+<span style="font-size: 18px;">[**Paper**](https://www.arxiv.org/pdf/2503.23353)</span>
 
-<span style="font-size: 18px;">- With monocular video input, HRAvatar reconstructs a high-quality, animatable 3D head avatar that enables realistic relighting effects and simple material editing.</span>
+<span style="font-size: 18px;">- We proposes a training-free method that uses isolated attention mechanisms to maintain character consistency and prevent feature confusion in story visualization.</span>
 
 </div>
 </div>
 
-# 📄 Preprint Papers
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/GUAVA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/CodeSwap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a href="https://arxiv.org/abs/2304.01054" style="font-size: 22px; color: #483D8B; text-decoration: none">**GUAVA: Generalizable Upper Body 3D Gaussian Avatar**</a><br>
-<span style="font-size: 18px;"> **Dongbin Zhang**, Yunfei Liu†, Lijian Lin, Ye Zhu, Yang Li, Minghan Qin, Yu Li‡, Haoqian Wang†</span><br>
-<span style="font-size: 18px;">[**Page**](https://eastbeanzhang.github.io/GUAVA/) [**Paper**](https://arxiv.org/pdf/2505.03351v1)</span>
+<a href="https://dl.acm.org/doi/10.1145/3664647.3681120" style="font-size: 22px; color: #483D8B; text-decoration: none">**GUAVA: Generalizable Upper Body 3D Gaussian Avatar**</a><br>
+<span style="font-size: 18px;"> **Xiangyang Luo**, Xin Zhang, Yifan Xie, Xinyi Tong, Weijiang Yu, Heng Chang, Fei Ma†, Fei Ricahrd Yu</span><br>
+<span style="font-size: 18px;">[**Paper**](https://dl.acm.org/doi/10.1145/3664647.3681120)</span>
 
-<span style="font-size: 18px;">-  We propose GUAVA, the first framework for fast animatable upper-body 3D Gaussian avatar reconstruction from a single image.</span>
+<span style="font-size: 18px;">-  CodeSwap achieves high-fidelity face swapping by symmetrically manipulating codes within a pre-trained, high-quality facial codebook. </span>
 
 </div>
 </div>
 
-# 🏆 Honors and Awards
+%# 🏆 Honors and Awards
 
-- National First Prize (0.7%), [CUMCM: China Undergraduate Mathematical Contest in Modeling](https://www.mcm.edu.cn/html_cn/node/5d988b4e510d9dc78168e258dc76a48f.html), 2021.
-- ​​Meritorious Winner​ (7%), [MCM: The Mathematical Contest in Modeling](https://www.comap.com/contests/mcm-icm), 2022.
-- Scholarship, Tsinghua University, 2024.
-- Scholarship, South China University of Technology, 2019-2023.
+%- National First Prize (0.7%), [CUMCM: China Undergraduate Mathematical Contest in Modeling](https://www.mcm.edu.cn/html_cn/node/5d988b4e510d9dc78168e258dc76a48f.html), 2021.
+
