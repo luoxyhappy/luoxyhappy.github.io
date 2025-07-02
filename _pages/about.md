@@ -25,12 +25,10 @@ Currently, I’m interested in AIGC, specializing in ​Video Generation.​
 
 <br>
 
+# 📰 News
+No news currently.
 
-%# 💻 Experience
-
-%08/2024 ~ 03/2025, I was a research intern at the [IDEA](https://www.idea.edu.cn/).
-
-%<br>
+<br>
 
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/CanonSwap.png' alt="sym" width="100%"></div></div>
