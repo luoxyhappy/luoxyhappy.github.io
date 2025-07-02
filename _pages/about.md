@@ -59,7 +59,7 @@ No news currently.
 <div class='paper-box-text' markdown="1">
 
 <a href="https://arxiv.org/pdf/2412.10718" style="font-size: 22px; color: #483D8B; text-decoration: none">**Grid: Omni Visual Generation**</a><br>
-<span style="font-size: 18px;">Cong Wan\*, **Xiangyang Luo\***, Hao Luo, Zijian Cai, Yiren Song, Yunlong Zhao, Yifan Bai, Fan Wang, Yuhang He, Tihong Gong</span><br>
+<span style="font-size: 18px;">Cong Wan\*, **Xiangyang Luo\***, Hao Luo, Zijian Cai, Yiren Song, Yunlong Zhao, Yifan Bai, Fan Wang, Yuhang He, Yihong Gong</span><br>
 <span style="font-size: 18px;">[**Paper**](https://arxiv.org/pdf/2412.10718)</span>
 
 <span style="font-size: 18px;">- We introduces GRID, an omni-visual generation framework that reformulates temporal tasks like video into grid layouts, enabling a single powerful image model to efficiently handle image, video, and 3D generation.</span>
