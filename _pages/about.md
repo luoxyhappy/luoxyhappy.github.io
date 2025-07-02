@@ -55,6 +55,18 @@ No news currently.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/GRID.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a href="https://arxiv.org/pdf/2412.10718" style="font-size: 22px; color: #483D8B; text-decoration: none">**Object Isolated Attention for Consistent Story Visualization**</a><br>
+<span style="font-size: 18px;">Cong Wan\*, **Xiangyang Luo\***, Hao Luo, Zijian Cai, Yiren Song, Yunlong Zhao, Yifan Bai, Fan Wang, Yuhang He, Tihong Gong</span><br>
+<span style="font-size: 18px;">[**Paper**](https://arxiv.org/pdf/2412.10718)</span>
+
+<span style="font-size: 18px;">- We introduces GRID, an omni-visual generation framework that reformulates temporal tasks like video into grid layouts, enabling a single powerful image model to efficiently handle image, video, and 3D generation.</span>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/CodeSwap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
