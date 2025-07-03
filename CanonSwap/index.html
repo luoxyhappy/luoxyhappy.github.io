@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="description"
         content="Gaussian in the Wild">
-  <meta name="keywords" content="GS-W, 3D Gaussian Splatting, Unconstrained image collections">
+  <meta name="keywords" content="CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GS-W: Gaussian in the Wild</title>
+  <title>CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -26,6 +26,16 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
 </head>
 
   <body>
@@ -54,71 +64,83 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Gaussian in the Wild: 3D Gaussian Splatting for Unconstrained Image Collections </h1>
+          <h1 class="title is-1 publication-title">CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://github.com/EastbeanZhang">Dongbin Zhang</a><sup>1*</sup>,</span>
+              <a href="luoxyhappy.github.io">Xiangyang Luo</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href=javascript:void(0)>Chuming Wang</a><sup>1*;</sup>,</span>
+              <a href=javascript:void(0)>Ye Zhu</a><sup>2&#134;</sup>,</span>
             <span class="author-block">
-              <a href=javascript:void(0)>Weitao Wang</a><sup>1</sup>,
+              <a href="https://liuyunfei.net/">Yunfei Liu</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?hl=en&user=LYX4AOEAAAAJ">Peihao Li</a><sup>1</sup>,
+              <a href=javascript:void(0)>Lijian Li</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://github.com/minghanqin">Minghan Qin</a><sup>1</sup>,
+              <a href=javascript:void(0)>Cong Wan</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.sigs.tsinghua.edu.cn/whq_en/main.htm">Haoqian Wang</a><sup>1&#134;</sup>
+              <a href=javascript:void(0)>Zijian Cai</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Shao-Lun Huang</a><sup>1&#134;</sup>
+            </span>            
+            <span class="author-block">
+              <a href="https://yu-li.github.io/">Yu Li</a><sup>2</sup>
             </span>
 
             <span class="author-block">
-              (* indicates equal contribution, &#134; means corresponding author)
+              (&#134; means corresponding author)
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Tsinghua Shenzhen International Graduate School, Tsinghua University</span>
           </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>2</sup>International Digital Economy Academy (IDEA) </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>3</sup>Xi'an Jiaotong UniversityCanonSwap</span>
+          </div>
           
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><b>Accepted to ECCV 2024 </b></font></span>
+            <span class="author-block"><b>Accepted to ICCV 2025 </b></font></span>
           </div>
           
            <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2403.15704"
+                <a href=javascript:void(0)
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   
-                  <span>Paper</span>
+                  <span>Paper (Comming Soon)</span>
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2403.15704"
+                <a href= javascript:void(0)
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
                  
-                  <span>arXiv</span>
+                  <span>arXiv (Comming Soon)</span>
                 </a>
               </span>
              
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/EastbeanZhang/Gaussian-Wild"
+                <a href=javascript:void(0)
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
                   
-                  <span>Code</span>
+                  <span>Code (Comming Soon)</span>
                   </a>
               </span>
             </div>
@@ -136,13 +158,22 @@
       <div class="column is-four-fifths">
         <div class="content has-text-justified">
           <p>
-            We utilize 3D Gaussian Splatting with introduced separated intrinsic and dynamic appearance to reconstruct scenes from uncontrolled images, achieving high-quality results and a faster rendering speed.
+            CanonSwap decouples motion information from appearance to enable high-fidelity and consistent video face swapping.
           </p>
         </div>
-        <div class="publication-video">
+        <!-- <div class="publication-video">
           <iframe src="https://www.youtube.com//embed/BNIX-OmIzgo"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+        </div> -->
+            <video id="replay-video"
+                  controls
+                  muted
+                  preload
+                  playsinline
+                  width="100%">
+            <source src="./static/videos/Total.mp4"
+                    type="video/mp4">
+          </video>
       </div>
     </div>
     <!--/ Paper video. -->
@@ -158,17 +189,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Novel view synthesis from unconstrained in-the-wild images remains a meaningful but challenging task. 
-            The photometric variation and transient occluders in those unconstrained images make it difficult to reconstruct 
-            the original scene accurately. Previous approaches tackle the problem by introducing a global appearance feature 
-            in Neural Radiance Fields (NeRF). However, in the real world, the unique appearance of each tiny point in a scene 
-            is determined by its independent intrinsic material attributes and the varying environmental impacts it receives. 
-            Inspired by this fact, we propose Gaussian in the wild (GS-W), a method that uses 3D Gaussian points to reconstruct 
-            the scene and introduces separated intrinsic and dynamic appearance feature for each point, capturing the unchanged 
-            scene appearance along with dynamic variation like illumination and weather. Additionally, an adaptive sampling 
-            strategy is presented to allow each Gaussian point to focus on the local and detailed information more effectively. 
-            We also reduce the impact of transient occluders using a 2D visibility map. More experiments have demonstrated better 
-            reconstruction quality and details of GS-W compared to previous methods, with faster rendering speed.
+            Video face swapping aims to address two primary challenges: effectively transferring the source identity to the target video and accurately preserving the dynamic attributes of the target face, such as head poses, facial expressions, lip-sync, \etc.
+            Existing methods mainly focus on achieving high-quality identity transfer but often fall short in maintaining the dynamic attributes of the target face, leading to inconsistent results. 
+            We attribute this issue to the inherent coupling of facial appearance and motion in videos. 
+            To address this, we propose CanonSwap, a novel video face-swapping framework that decouples motion information from appearance information. 
+            Specifically, CanonSwap first eliminates motion-related information, enabling identity modification within a unified canonical space. Subsequently, the swapped feature is reintegrated into the original video space, ensuring the preservation of the target face's dynamic attributes. 
+            To further achieve precise identity transfer with minimal artifacts and enhanced realism, we design a Partial Identity Modulation module that adaptively integrates source identity features using a spatial mask to restrict modifications to facial regions.
+            Additionally, we introduce several fine-grained synchronization metrics to comprehensively evaluate the performance of video face swapping methods.
+            Extensive experiments demonstrate that our method significantly outperforms existing approaches in terms of visual quality, temporal consistency, and identity preservation.
           </p>
         </div>
       </div>
@@ -182,126 +210,46 @@
     <div class="columns is-centered">
       <div class="column is-full-width">
         
-        <div class="hero-body">
+        <div class="hero-body custom-hero-spacing">
           <img src="./static/images/teaser.png"/>
         </div>
         <div class="content has-text-justified">
           <p>
-            With an unconstrained image collection input, our method can render novel views with appearance tuning, 
-            achieving a significantly faster rendering speed while maintaining state-of-the-art quality.
+            CanonSwap decouples motion information from appearance to enable high-fidelity and consistent video face swapping.
           </p>
         </div>
         
-        <h3 class="title is-4">Reconstruction scenes with variant appearance</h3>
+        <h3 class="title is-4">Pipeline</h3>
         <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Visual Effects Showcase Brandenburg.mp4"
-                    type="video/mp4">
-          </video>
+          <img src="./static/images/concept.png" style="width: 27%; margin-right: 1%;"/>
+          <img src="./static/images/pipeline.png" style="width: 68%; margin-left: 1%;"/>
         </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Visual Effects Showcase Sacre.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Visual Effects Showcase Trevi.mp4"
-                    type="video/mp4">
-          </video>
+        <div class="content has-text-justified">
+          <p>
+            Given a source image and a target video, our method first extracts identity features through an ID encoder from the source image. Each frame of the target video is warped to a canonical space using transformation $\mathbf{M_{o\rightarrow c}}$ estimated by the motion extractor. In this canonical space, we perform identity transfer using the Partial Identity Modulation module. The transformed features are then refined by a refine module. Finally, the refined feature is warped back to the target pose using $\mathbf{M_{c \rightarrow o}}$ and to generate the swapped results.
+          </p>
         </div>
 
-        
-        <h3 class="title is-4">Novel View Synthesis</h3>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Novel View Compare Brandenburg.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Novel View Compare Sacre.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        
-            <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Novel View Compare Trevi.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
 
-         <h3 class="title is-4">Appearance tuning</h3>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Appear Tuning Brandenburg.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Appear Tuning Sacre.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-
-          <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Appear Tuning Trevi.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
         
+        <h3 class="title is-4">Qualitative Comparison </h3>
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                  controls
+                  muted
+                  preload
+                  playsinline
+                  width="100%">
+            <source src="./static/videos/Qualitative Comparison.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
           <div class="hero-body">
-          <img src="./static/images/appear tuning.png"/>
+          </div>
+         <h3 class="title is-4">Quantitative Comparison </h3>
+        <div class="content has-text-centered">
+
+          <img src="./static/images/Quantitative.png"/>
         </div>
         
           <div class="content has-text-justified">
@@ -312,14 +260,21 @@
           </p>
         </div>
 
-        <h3 class="title is-4">Visual comparison on test set</h3>
+        <h3 class="title is-4">End2End Face Swapping and Animation</h3>
         <div class="hero-body">
-          <img src="./static/images/qualitative.png"/>
+          <video id="replay-video"
+                  controls
+                  muted
+                  preload
+                  playsinline
+                  width="100%">
+            <source src="./static/videos/animation.mp4"
+                    type="video/mp4">
+          </video>
         </div>
         <div class="content has-text-justified">
           <p>
-            Qualitative experimental results on three unconstrained datasets. GS-W recovers finer details of appearance 
-            and reconstructs more detailed geometry.
+Face swapping and animation results. Both identity and expression of result video come from the source video.
           </p>
         </div>
         
@@ -332,14 +287,7 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{zhang2024GS-W,
-  title={Gaussian in the wild: 3d gaussian splatting for unconstrained image collections},
-  author={Zhang, Dongbin and Wang, Chuming and Wang, Weitao and Li, Peihao and Qin, Minghan and Wang, Haoqian},
-  booktitle={European Conference on Computer Vision},
-  pages={341--359},
-  year={2024},
-  organization={Springer}
-}</code></pre>
+    <pre><code>Comming Soon</code></pre>
   </div>
 </section>
     
