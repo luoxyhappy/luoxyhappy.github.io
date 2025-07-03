@@ -20,7 +20,6 @@ redirect_from:
 
 I am currently a 1st-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science (Yingcai Honors College) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'>. 
 
-Currently, I’m interested in AIGC, specializing in ​Video Generation.​
  
 
 <br>
