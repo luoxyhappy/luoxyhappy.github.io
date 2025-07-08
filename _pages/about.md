@@ -35,6 +35,7 @@ No news currently.
 
 <a href="https://arxiv.org/abs/2407.06984" style="font-size: 22px; color: #483D8B; text-decoration: none">**CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation**</a><br>
 <span style="font-size: 18px;">**Xiangyang Luo** , Ye Zhu†, Yunfei Liu, Lijian Lin, Cong Wan, Zijian Cai, Shao-Lun Huang†, Yu Li</span><br>
+<span style="font-size: 18px;">[**Paper**](https://arxiv.org/abs/2507.02691)  </span> 
 <span style="font-size: 18px;">[**Page**](https://luoxyhappy.github.io/CanonSwap/)  </span>
 
 <span style="font-size: 18px;">-  CanonSwap decouples motion information from appearance to enable high-fidelity and consistent video face swapping.</span>
