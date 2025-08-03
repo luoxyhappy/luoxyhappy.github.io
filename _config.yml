@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-title                    : "Xiangyang Luo|罗向阳"
+title                    : "Xiangyang Luo | 罗向阳"
 title_separator          : "-"
 name                     : &name "Xiangyang Luo"
 description              : &description "AIGC, Computer Vision"

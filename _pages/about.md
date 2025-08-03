@@ -18,18 +18,30 @@ redirect_from:
 
 # 👨‍🎓 About me
 
-I am currently a 1st-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science (Yingcai Honors College) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'>. 
+I am currently a 1st-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science ([Yingcai Honors College](https://www.yingcai.uestc.edu.cn/en/index.htm)) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'>. 
 
  
 
 <br>
 
 # 📰 News
-No news currently.
-
+[2025-07-26]🎉🎉 Our Paper "Human Motion Video Generation: A Survey" is accpted by TPMAI!
+[2025-06-26]🎉🎉 Our paper "CanonSwap" is accepted by ICCV 2025!
 <br>
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPMAI</div><img src='images/human.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a href="https://www.techrxiv.org/users/836049/articles/1228135-human-motion-video-generation-a-survey" style="font-size: 22px; color: #483D8B; text-decoration: none">**Human Motion Video Generation: A Survey**</a><br>
+<span style="font-size: 18px;">Haiwei Xue, **Xiangyang Luo**, Zhanghao Hu, Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Minglei Li, Jian Yang, Fei Ma, Changpeng Yang, Zonghong Dai, Fei Richard Yu </span><br>
+<span style="font-size: 18px;">[**Paper**](https://www.techrxiv.org/users/836049/articles/1228135-human-motion-video-generation-a-survey) [**Page**](https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation) </span>
+
+<span style="font-size: 18px;">- This survey provides a comprehensive review of human motion video generation methods, covering the latest techniques, applications, and future directions.</span>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/CanonSwap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
