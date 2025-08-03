@@ -25,8 +25,9 @@ I am currently a 1st-Year Master student at [Tsinghua University](https://www.ts
 <br>
 
 # 📰 News
-[2025-07-26]🎉🎉 Our Paper "Human Motion Video Generation: A Survey" is accpted by TPMAI!
-[2025-06-26]🎉🎉 Our paper "CanonSwap" is accepted by ICCV 2025!
+
+*   **[2025-07-26]** 🎉🎉 Our Paper "**Human Motion Video Generation: A Survey**" is accepted by `TPAMI`!
+*   **[2025-06-26]** 🎉🎉 Our paper "**CanonSwap**" is accepted by `ICCV 2025`!
 <br>
 
 # 📝 Publications 
