@@ -31,7 +31,7 @@ I am currently a 1st-Year Master student at [Tsinghua University](https://www.ts
 <br>
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPMAI</div><img src='images/human.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI</div><img src='images/human.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a href="https://www.techrxiv.org/users/836049/articles/1228135-human-motion-video-generation-a-survey" style="font-size: 22px; color: #483D8B; text-decoration: none">**Human Motion Video Generation: A Survey**</a><br>
