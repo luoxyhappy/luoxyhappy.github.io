@@ -10,7 +10,7 @@
 title                    : "Xiangyang Luo | 罗向阳"
 title_separator          : "-"
 name                     : &name "Xiangyang Luo"
-description              : &description "AIGC, Computer Vision"
+description              : &description "Generative AI, Computer Vision"
 url                      : https://luoxyhappy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "luoxyhappy/luoxyhappy.github.io"
