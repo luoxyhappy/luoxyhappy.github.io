@@ -1,7 +1,17 @@
 ---
+layout: single
 permalink: /
 title: ""
 author_profile: true
+classes: wide
+toc: true
+toc_label: "On this page"
+toc_sticky: true
+header:
+  overlay_image: /images/profile.png
+  overlay_color: "#0d1b2a"
+  overlay_filter: 0.35
+og_image: /images/profile.png
 redirect_from: 
   - /about/
   - /about.html
@@ -16,9 +26,60 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<style>
+/* Page-local styles: only affect this page */
+.page__content .paper-box {
+  display: flex;
+  gap: 18px;
+  align-items: stretch;
+  margin: 1.5rem 0;
+  padding: 0;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+.page__content .paper-box-image {
+  position: relative;
+  flex: 0 0 260px;
+  max-width: 260px;
+}
+.page__content .paper-box-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.page__content .paper-box-image .badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #483D8B;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  box-shadow: 0 3px 12px rgba(72,61,139,0.35);
+}
+.page__content .paper-box-text {
+  padding: 16px 18px;
+}
+@media (max-width: 768px) {
+  .page__content .paper-box {
+    flex-direction: column;
+  }
+  .page__content .paper-box-image {
+    max-width: 100%;
+    flex: 0 0 auto;
+  }
+}
+</style>
+
 # 👨‍🎓 About me
 
-I am currently a 2nd-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science ([Yingcai Honors College](https://www.yingcai.uestc.edu.cn/en/index.htm)) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'> from 2020 to 2024. My current research interest is Generative AI, including Image&Video Generation, human-centric generation and effecient training methods.
+I am currently a 2nd-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science ([Yingcai Honors College](https://www.yingcai.uestc.edu.cn/en/index.htm)) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'> from 2020 to 2024. My current research interest is Generative AI, including Image&Video Generation, human-centric generation and effiicient training methods.
 
 I am looking for a Ph.D. position starting in Fall 2027. I'm always open to connecting and discussing my research interests!🤝🤝🤝
 
