@@ -25,12 +25,26 @@ I am looking for a Ph.D. position starting in Fall 2027. I'm always open to conn
 <br>
 
 # 📰 News
-*   **[2025-08-24]** The code of **CanonSwap** is released. Welcome to star it⭐⭐!
-*   **[2025-07-26]** 🎉🎉 Our Paper "**Human Motion Video Generation: A Survey**" is accepted by `TPAMI`!
-*   **[2025-06-26]** 🎉🎉 Our paper "**CanonSwap**" is accepted by `ICCV 2025`!
+*   **[2025-11-08]** Our Paper **FilmWeaver** is accepted by `AAAI 2026`.
+*   **[2025-08-24]** The code of **CanonSwap** is released. Welcome to star it.
+*   **[2025-07-26]** Our Paper "**Human Motion Video Generation: A Survey**" is accepted by `TPAMI`.
+*   **[2025-06-26]** Our paper "**CanonSwap**" is accepted by `ICCV 2025`.
 <br>
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/FilmWeaver.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a href="{{ '/FilmWeaver/' | relative_url }}" style="font-size: 22px; color: #483D8B; text-decoration: none"><strong>FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion</strong></a><br>
+<span style="font-size: 18px;"><strong>Xiangyang Luo</strong>, Qingyu Li, Xiaokun Liu, Wenyu Qin, Miao Yang, Meng Wang, Pengfei Wan, Di Zhang, Kun Gai, Shao-Lun Huang</span><br>
+<span style="font-size: 18px;">[**Paper**]() [**Page**](https://luoxyhappy.github.io/FilmWeaver/) </span>
+
+<span style="font-size: 18px;">- FilmWeaver generates consistent multi-shot videos of arbitrary length via an autoregressive diffusion paradigm, enforcing inter-shot consistency with a Shot Cache and intra-shot coherence with a Temporal Cache, and supports applications such as concept injection and video extension.</span>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI</div><img src='images/human.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

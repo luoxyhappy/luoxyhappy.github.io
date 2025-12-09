@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Gaussian in the Wild">
+  <meta name="keywords" content="FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/logo.png">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+</head>
+
+  <body>
+
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://github.com/EastbeanZhang">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+    </div>
+</nav> -->
+
+  <section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="luoxyhappy.github.io">Xiangyang Luo</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Qingyu Li</a><sup>2&#134;</sup>,</span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Xiaokun Liu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Wenyu Qin</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Miao Yang</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Meng Wang</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Pengfei Wan</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Di Zhang</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Kun Gai</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href=javascript:void(0)>Shao-Lun Huang</a><sup>1&#134;</sup>
+            </span>            
+
+
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Tsinghua Shenzhen International Graduate School, Tsinghua University</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>2</sup>Kling Team, Kuaishou Technology</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><b>Accepted to AAAI 2026 </b></font></span>
+          </div>
+          
+           <!-- <div class="column has-text-centered">
+            <div class="publication-links"> -->
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href=javascript:void(0)
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  
+                  <span>Paper</span>
+                </a>
+             
+              </span>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          Current video generation models perform well at single-shot synthesis but struggle with multi-shot videos, facing critical challenges in maintaining character and background consistency across shots and flexibly generating videos of arbitrary length and shot count. To address these limitations, we introduce \textbf{FilmWeaver}, a novel framework designed to generate consistent, multi-shot videos of arbitrary length. First, it employs an autoregressive diffusion paradigm to achieve arbitrary-length video generation. To address the challenge of consistency, our key insight is to decouple the problem into inter-shot consistency and intra-shot coherence. We achieve this through a dual-level cache mechanism: a shot memory caches keyframes from preceding shots to maintain character and scene identity, while a temporal memory retains a history of frames from the current shot to ensure smooth, continuous motion. The proposed framework allows for flexible, multi-round user interaction to create multi-shot videos. Furthermore, due to this decoupled design, our method demonstrates high versatility by supporting downstream tasks such as multi-concept injection and video extension. To facilitate the training of our consistency-aware method, we also developed a comprehensive pipeline to construct a high-quality multi-shot video dataset. Extensive experimental results demonstrate that our method surpasses existing approaches on metrics for both consistency and aesthetic quality, opening up new possibilities for creating more consistent, controllable, and narrative-driven video content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+</section>
+
+    
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        
+        
+        <h3 class="title is-4">Pipeline</h3>
+        <div class="content has-text-centered">
+          <img src="./static/images/pipeline.png" style="width: 68%; margin-left: 1%;"/>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            The framework of FilmWeaver. New video frames are generated autoregressively and consistency is enforced via a dual-level cache mechanism: a Shot Cache for long-term concept memory, populated through prompt-based key-frames retrieval from past shots, and a Temporal Cache for intra-shot coherence.
+          </p>
+        <div class="content has-text-centered">
+          <img src="./static/images/process.png" style="width: 1000%; margin-left: 1%;"/>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            The multi-shot generation process involves four distinct scenarios, each corresponding to a different inference mode: (1) No Cache initializes generation and populates the caches; (2) Temporal Only extends the current shot using temporal context; (3) Shot Only transitions to a new shot by injecting key frames from previous shots; and (4) Full Cache combines both contexts.
+          </p>
+        </div>
+
+        <h3 class="title is-4">Multi-Shot Generation</h3>
+        <div class="content has-text-centered">
+          <figure style="max-width: 75%; margin: 0 auto;">
+            <video id="replay-video"
+                    controls
+                    muted
+                    preload
+                    playsinline
+                    width="100%">
+              <source src="./static/videos/Jungle.mp4"
+                      type="video/mp4">
+            </video>
+            <figcaption class="has-text-centered is-size-6 has-text-grey">
+              Story 1: Chasing in the Jungle.
+            </figcaption>
+          </figure>
+          <figure style="max-width: 75%; margin: 0 auto;">
+            <video id="replay-video"
+                    controls
+                    muted
+                    preload
+                    playsinline
+                    width="100%">
+              <source src="./static/videos/Lab.mp4"
+                      type="video/mp4">
+            </video>
+            <figcaption class="has-text-centered is-size-6 has-text-grey">
+              Story 2: A strange man in a labrary.
+            </figcaption>
+          </figure>
+        </div>
+          </div>
+         <h3 class="title is-4">More Applications </h3>
+        
+          <div class="content has-text-justified">
+          <p>
+By editing the two-stage cache contents, our method enables flexible downstream applications: modifying the Shot Cache allows precise concept injection, while adjusting the Temporal Cache supports seamless video extension.
+          </p>
+
+          <h4 class="title is-5">Concept Injection</h4>
+          <p>
+            Our framework can achieve concept injection by manually specifying reference images to insert into the Shot Cache.
+          </p>
+          <!-- 上下放置视频 -->
+          <div class="content has-text-centered">
+            <video id="concept1"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="./static/videos/Concept1.mp4" type="video/mp4">
+            </video>
+            <br>
+            <video id="concept2"
+                   controls
+                   muted
+                   preload
+                   playsinline
+                   width="75%">
+              <source src="./static/videos/Concept2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <h4 class="title is-5">Video Extension</h4>
+          <p>
+            By clearing the Shot Cache and switching the text prompt, our framework can extend videos to arbitrary length without introducing new shots.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <video id="extension"
+                     controls
+                     muted
+                     preload
+                     playsinline
+                     width="75%">
+                <source src="./static/videos/Extension.mp4" type="video/mp4">
+              </video>
+        </div>
+        
+    </div>
+    </div>
+  </div>
+</section>
+    
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+        <!-- @article{luo2025canonswap,
+    title={CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation},
+    author={Luo, Xiangyang and Zhu, Ye and Liu, Yunfei and Lin, Lijian and Wan, Cong and Cai, Zijian and Huang, Shao-Lun and Li, Yu},
+    journal={arXiv preprint arXiv:2507.02691},
+    year={2025}
+    } -->
+</code></pre>
+  </div>
+</section>
+    
+
+
+</body>
+</html>
