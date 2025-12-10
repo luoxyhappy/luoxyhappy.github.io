@@ -38,7 +38,7 @@ I am looking for a Ph.D. position starting in Fall 2027. I'm always open to conn
 
 <a href="{{ '/FilmWeaver/' | relative_url }}" style="font-size: 22px; color: #483D8B; text-decoration: none"><strong>FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion</strong></a><br>
 <span style="font-size: 18px;"><strong>Xiangyang Luo</strong>, Qingyu Li, Xiaokun Liu, Wenyu Qin, Miao Yang, Meng Wang, Pengfei Wan, Di Zhang, Kun Gai, Shao-Lun Huang</span><br>
-<span style="font-size: 18px;">[**Paper**]() [**Page**](https://luoxyhappy.github.io/FilmWeaver/) </span>
+<span style="font-size: 18px;">[**Paper**]() [**Page**](https://filmweaver.github.io) </span>
 
 <span style="font-size: 18px;">- FilmWeaver generates consistent multi-shot videos of arbitrary length via an autoregressive diffusion paradigm, enforcing inter-shot consistency with a Shot Cache and intra-shot coherence with a Temporal Cache, and supports applications such as concept injection and video extension.</span>
 
