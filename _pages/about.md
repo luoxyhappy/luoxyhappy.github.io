@@ -25,6 +25,7 @@ I am looking for a Ph.D. position starting in Fall 2027. I'm always open to conn
 <br>
 
 # 📰 News
+*   **[2026-02]** One paper is accpted by `CVPR 2026`. 
 *   **[2025-11-08]** Our Paper **FilmWeaver** is accepted by `AAAI 2026`.
 *   **[2025-08-24]** The code of **CanonSwap** is released. Welcome to star it.
 *   **[2025-07-26]** Our Paper "**Human Motion Video Generation: A Survey**" is accepted by `TPAMI`.
