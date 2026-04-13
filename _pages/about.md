@@ -22,9 +22,6 @@ I am currently a 2nd-Year Master student at [Tsinghua University](https://www.ts
 
 My research interest includes: <span style="display:inline-block;padding:0.2em 0.7em;margin:0.15em 0.2em;background:#eef2f7;color:#4a6fa5;border-radius:20px;font-size:0.9em;font-weight:500;border:1px solid rgba(74,111,165,0.15);">Image & Video Generation</span> <span style="display:inline-block;padding:0.2em 0.7em;margin:0.15em 0.2em;background:#eef2f7;color:#4a6fa5;border-radius:20px;font-size:0.9em;font-weight:500;border:1px solid rgba(74,111,165,0.15);">Human-Centric Generation</span> <span style="display:inline-block;padding:0.2em 0.7em;margin:0.15em 0.2em;background:#eef2f7;color:#4a6fa5;border-radius:20px;font-size:0.9em;font-weight:500;border:1px solid rgba(74,111,165,0.15);">Reinforcement Learning</span>
 
-<div style="background:linear-gradient(135deg,#f0f4f8,#e8f0fe);border-left:4px solid #4a6fa5;padding:1em 1.5em;border-radius:0 8px 8px 0;margin:1em 0 1.5em 0;font-size:1em;color:#333;">
-🎓 I am looking for a <strong>Ph.D. position</strong> starting in <strong>Fall 2027</strong>. I'm always open to connecting and discussing my research interests! 🤝
-</div>
 
 <br>
 
