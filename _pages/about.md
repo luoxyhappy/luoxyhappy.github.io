@@ -20,9 +20,9 @@ redirect_from:
 
 I am currently a 2nd-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science ([Yingcai Honors College](https://www.yingcai.uestc.edu.cn/en/index.htm)) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'> from 2020 to 2024.
 
-My research interest includes: <span class='research-tag'>Image & Video Generation</span> <span class='research-tag'>Human-Centric Generation</span> <span class='research-tag'>Efficient Training Methods</span> <span class='research-tag'>Generative AI</span>
+My research interest includes: <span style="display:inline-block;padding:0.2em 0.7em;margin:0.15em 0.2em;background:#eef2f7;color:#4a6fa5;border-radius:20px;font-size:0.9em;font-weight:500;border:1px solid rgba(74,111,165,0.15);">Image & Video Generation</span> <span style="display:inline-block;padding:0.2em 0.7em;margin:0.15em 0.2em;background:#eef2f7;color:#4a6fa5;border-radius:20px;font-size:0.9em;font-weight:500;border:1px solid rgba(74,111,165,0.15);">Human-Centric Generation</span> <span style="display:inline-block;padding:0.2em 0.7em;margin:0.15em 0.2em;background:#eef2f7;color:#4a6fa5;border-radius:20px;font-size:0.9em;font-weight:500;border:1px solid rgba(74,111,165,0.15);">Efficient Training Methods</span> <span style="display:inline-block;padding:0.2em 0.7em;margin:0.15em 0.2em;background:#eef2f7;color:#4a6fa5;border-radius:20px;font-size:0.9em;font-weight:500;border:1px solid rgba(74,111,165,0.15);">Generative AI</span>
 
-<div class='phd-notice'>
+<div style="background:linear-gradient(135deg,#f0f4f8,#e8f0fe);border-left:4px solid #4a6fa5;padding:1em 1.5em;border-radius:0 8px 8px 0;margin:1em 0 1.5em 0;font-size:1em;color:#333;">
 🎓 I am looking for a <strong>Ph.D. position</strong> starting in <strong>Fall 2027</strong>. I'm always open to connecting and discussing my research interests! 🤝
 </div>
 
@@ -30,16 +30,16 @@ My research interest includes: <span class='research-tag'>Image & Video Generati
 
 # News
 
-<div class='news-item'><span class='news-date'>2026-02</span><span class='news-content'>One paper is accepted by <code>CVPR 2026</code>.</span></div>
-<div class='news-item'><span class='news-date'>2025-11</span><span class='news-content'>Our Paper <strong>FilmWeaver</strong> is accepted by <code>AAAI 2026</code>.</span></div>
-<div class='news-item'><span class='news-date'>2025-08</span><span class='news-content'>The code of <strong>CanonSwap</strong> is released. Welcome to star it!</span></div>
-<div class='news-item'><span class='news-date'>2025-07</span><span class='news-content'>Our Paper "<strong>Human Motion Video Generation: A Survey</strong>" is accepted by <code>TPAMI</code>.</span></div>
-<div class='news-item'><span class='news-date'>2025-06</span><span class='news-content'>Our paper "<strong>CanonSwap</strong>" is accepted by <code>ICCV 2025</code>.</span></div>
+<div style="display:flex;align-items:baseline;padding:0.55em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2026-02</span><span>One paper is accepted by <code>CVPR 2026</code>.</span></div>
+<div style="display:flex;align-items:baseline;padding:0.55em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2025-11</span><span>Our Paper <strong>FilmWeaver</strong> is accepted by <code>AAAI 2026</code>.</span></div>
+<div style="display:flex;align-items:baseline;padding:0.55em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2025-08</span><span>The code of <strong>CanonSwap</strong> is released. Welcome to star it!</span></div>
+<div style="display:flex;align-items:baseline;padding:0.55em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2025-07</span><span>Our Paper "<strong>Human Motion Video Generation: A Survey</strong>" is accepted by <code>TPAMI</code>.</span></div>
+<div style="display:flex;align-items:baseline;padding:0.55em 0.5em;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2025-06</span><span>Our paper "<strong>CanonSwap</strong>" is accepted by <code>ICCV 2025</code>.</span></div>
 <br>
 
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/FilmWeaver.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><video src='/images/filmweaver_demo.mp4' width="100%" autoplay loop muted playsinline style="border-radius:8px;"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a href="{{ '/FilmWeaver/' | relative_url }}" style="font-size: 22px; color: #483D8B; text-decoration: none"><strong>FilmWeaver: Weaving Consistent Multi-Shot Videos with Cache-Guided Autoregressive Diffusion</strong></a><br>
@@ -63,7 +63,7 @@ My research interest includes: <span class='research-tag'>Image & Video Generati
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/CanonSwap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><video src='/images/canonswap_demo.mp4' width="100%" autoplay loop muted playsinline style="border-radius:8px;"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a href="https://arxiv.org/abs/2407.06984" style="font-size: 22px; color: #483D8B; text-decoration: none">**CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation**</a><br>
