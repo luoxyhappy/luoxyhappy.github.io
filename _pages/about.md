@@ -124,4 +124,41 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 </div>
 
 
+# Internships
 
+<div style="margin-top:0.5em;">
+
+<div style="display:flex;align-items:center;padding:1.2em 1em;margin-bottom:0.8em;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.06);background:#fff;">
+  <img src='/images/alibaba.png' style="width:52px;height:52px;border-radius:8px;object-fit:contain;flex-shrink:0;margin-right:1.2em;">
+  <div style="flex:1;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;">
+      <span style="font-size:15px;font-weight:700;color:#222;">Alibaba &nbsp;<span style="font-weight:400;font-size:13px;color:#888;">Research Intern (T-Star)</span></span>
+
+    </div>
+    <div style="margin-top:0.3em;font-size:13px;color:#555;">Topic: Human-Centric Video Generation, Reinforcement Learning</div>
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;padding:1.2em 1em;margin-bottom:0.8em;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.06);background:#fff;">
+  <img src='/images/kuaishou.png' style="width:52px;height:52px;border-radius:8px;object-fit:contain;flex-shrink:0;margin-right:1.2em;">
+  <div style="flex:1;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;">
+      <span style="font-size:15px;font-weight:700;color:#222;">Kuaishou &nbsp;<span style="font-weight:400;font-size:13px;color:#888;">Research Intern</span></span>
+
+    </div>
+    <div style="margin-top:0.3em;font-size:13px;color:#555;">Topic: Video Generation, Multi-Shot Generation, Training Strategies</div>
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;padding:1.2em 1em;margin-bottom:0.8em;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.06);background:#fff;">
+  <img src='/images/idea.jpeg' style="width:52px;height:52px;border-radius:8px;object-fit:contain;flex-shrink:0;margin-right:1.2em;">
+  <div style="flex:1;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;">
+      <span style="font-size:15px;font-weight:700;color:#222;">IDEA Research &nbsp;<span style="font-weight:400;font-size:13px;color:#888;">Research Intern</span></span>
+
+    </div>
+    <div style="margin-top:0.3em;font-size:13px;color:#555;">Topic: Video Face Swapping</div>
+  </div>
+</div>
+
+</div>
