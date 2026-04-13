@@ -16,23 +16,28 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 👨‍🎓 About me
+# About Me
 
-I am currently a 2nd-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science ([Yingcai Honors College](https://www.yingcai.uestc.edu.cn/en/index.htm)) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'> from 2020 to 2024. My current research interest is Generative AI, including Image&Video Generation, human-centric generation and effiicient training methods.
+I am currently a 2nd-Year Master student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) <img src='./images/thu.png' style='width: 2em;'>. I got B.Eng. degree in Computer Science ([Yingcai Honors College](https://www.yingcai.uestc.edu.cn/en/index.htm)) at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) <img src='./images/uestc.png' style='width: 2em;'> from 2020 to 2024.
 
-I am looking for a Ph.D. position starting in Fall 2027. I'm always open to connecting and discussing my research interests!🤝🤝🤝
+My research interest includes: <span class='research-tag'>Image & Video Generation</span> <span class='research-tag'>Human-Centric Generation</span> <span class='research-tag'>Efficient Training Methods</span> <span class='research-tag'>Generative AI</span>
+
+<div class='phd-notice'>
+🎓 I am looking for a <strong>Ph.D. position</strong> starting in <strong>Fall 2027</strong>. I'm always open to connecting and discussing my research interests! 🤝
+</div>
 
 <br>
 
-# 📰 News
-*   **[2026-02]** One paper is accpted by `CVPR 2026`. 
-*   **[2025-11-08]** Our Paper **FilmWeaver** is accepted by `AAAI 2026`.
-*   **[2025-08-24]** The code of **CanonSwap** is released. Welcome to star it.
-*   **[2025-07-26]** Our Paper "**Human Motion Video Generation: A Survey**" is accepted by `TPAMI`.
-*   **[2025-06-26]** Our paper "**CanonSwap**" is accepted by `ICCV 2025`.
+# News
+
+<div class='news-item'><span class='news-date'>2026-02</span><span class='news-content'>One paper is accepted by <code>CVPR 2026</code>.</span></div>
+<div class='news-item'><span class='news-date'>2025-11</span><span class='news-content'>Our Paper <strong>FilmWeaver</strong> is accepted by <code>AAAI 2026</code>.</span></div>
+<div class='news-item'><span class='news-date'>2025-08</span><span class='news-content'>The code of <strong>CanonSwap</strong> is released. Welcome to star it!</span></div>
+<div class='news-item'><span class='news-date'>2025-07</span><span class='news-content'>Our Paper "<strong>Human Motion Video Generation: A Survey</strong>" is accepted by <code>TPAMI</code>.</span></div>
+<div class='news-item'><span class='news-date'>2025-06</span><span class='news-content'>Our paper "<strong>CanonSwap</strong>" is accepted by <code>ICCV 2025</code>.</span></div>
 <br>
 
-# 📝 Publications 
+# Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/FilmWeaver.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

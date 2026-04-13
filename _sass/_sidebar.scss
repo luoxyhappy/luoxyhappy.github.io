@@ -95,7 +95,14 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      border: 2px solid #e8edf5;
+      box-shadow: 0 4px 15px rgba(74, 111, 165, 0.15);
+      transition: all 0.3s ease;
+
+      &:hover {
+        box-shadow: 0 6px 20px rgba(74, 111, 165, 0.25);
+        transform: scale(1.03);
+      }
     }
   }
 }
