@@ -24,6 +24,7 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 
 # News
 
+<div style="display:flex;align-items:baseline;padding:0.35em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2026-04</span><span>We released <strong>CoInteract</strong>, see <a href="https://xinxiaozhe12345.github.io/CoInteract_Project/">Project Page</a> for more details and codes.</span></div>
 <div style="display:flex;align-items:baseline;padding:0.35em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2026-02</span><span>Our paper "<strong>Beyond the Golden Data</strong>" is accepted by <code>CVPR 2026</code>.</span></div>
 <div style="display:flex;align-items:baseline;padding:0.35em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2025-11</span><span>Our Paper <strong>FilmWeaver</strong> is accepted by <code>AAAI 2026</code>.</span></div>
 <div style="display:flex;align-items:baseline;padding:0.35em 0.5em;border-bottom:1px solid #f0f0f0;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2025-08</span><span>The code of <strong>CanonSwap</strong> is released. Welcome to star it!</span></div>
@@ -31,6 +32,18 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 <div style="display:flex;align-items:baseline;padding:0.35em 0.5em;"><span style="display:inline-block;min-width:88px;padding:0.15em 0.6em;background:#eef2f7;color:#4a6fa5;border-radius:4px;font-size:0.82em;font-weight:600;margin-right:1em;text-align:center;flex-shrink:0;">2025-06</span><span>Our paper "<strong>CanonSwap</strong>" is accepted by <code>ICCV 2025</code>.</span></div>
 
 # Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><video src='/images/cointeract_demo.mp4' width="100%" autoplay loop muted playsinline style="border-radius:8px;"></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+<a href="" style="font-size: 15px; color: #483D8B; text-decoration: none"><strong>CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation</strong></a><br>
+<span style="font-size: 13px;">**Xiangyang Luo\***, Xiaozhe Xin*†, Tao Feng, Xu Guo, Meiguang Jin, Junfeng Ma</span><br>
+<span style="font-size: 13px;">[**Paper**]() [**Page**](https://xinxiaozhe12345.github.io/CoInteract_Project/) [**Code**](https://github.com/luoxyhappy/CoInteract)</span>
+
+<span style="font-size: 12px; color: #666;">CoInteract introduces a Human-Aware Mixture-of-Experts and Spatially-Structured Co-Generation paradigm for physically-consistent human-object interaction video synthesis, achieving zero-overhead inference while significantly improving structural stability and interaction plausibility.</span>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/TQD2.png' alt="sym" width="100%" style="object-fit:contain;background:#fff;"></div></div>
 <div class='paper-box-text' markdown="1">
