@@ -33,7 +33,7 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 
 # Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><video src='/images/cointeract_demo.mp4' width="100%" autoplay loop muted playsinline style="border-radius:8px;"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><video src='/images/cointeract_demo.mp4' width="100%" autoplay loop muted playsinline style="border-radius:8px;"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a href="" style="font-size: 15px; color: #483D8B; text-decoration: none"><strong>CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation</strong></a><br>
@@ -93,7 +93,7 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/GRID.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/GRID.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a href="https://arxiv.org/pdf/2412.10718" style="font-size: 15px; color: #483D8B; text-decoration: none">**Grid: Omni Visual Generation**</a><br>
