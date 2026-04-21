@@ -33,7 +33,7 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 
 # Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><video src='/images/cointeract_demo.mp4' width="100%" autoplay loop muted playsinline style="border-radius:8px;"></video></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><video src='/images/cointeract_demo.mp4' width="100%" autoplay loop muted playsinline style="border-radius:8px;"></video></div></div>
 <div class='paper-box-text' markdown="1">
 
 <a href="" style="font-size: 15px; color: #483D8B; text-decoration: none"><strong>CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation</strong></a><br>
