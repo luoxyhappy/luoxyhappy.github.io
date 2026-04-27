@@ -38,7 +38,7 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 
 <a href="" style="font-size: 15px; color: #483D8B; text-decoration: none"><strong>CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation</strong></a><br>
 <span style="font-size: 13px;">**Xiangyang Luo\***, Xiaozhe Xin*†, Tao Feng, Xu Guo, Meiguang Jin, Junfeng Ma</span><br>
-<span style="font-size: 13px;">[**Paper**]() [**Page**](https://xinxiaozhe12345.github.io/CoInteract_Project/) [**Code**](https://github.com/luoxyhappy/CoInteract)</span>
+<span style="font-size: 13px;">[**Paper**]() [**Page**](https://xinxiaozhe12345.github.io/CoInteract_Project/) [**Code**](https://github.com/luoxyhappy/CoInteract) <a href="https://github.com/luoxyhappy/CoInteract"><img src="https://img.shields.io/github/stars/luoxyhappy/CoInteract?style=social&label=Star" alt="GitHub stars" style="vertical-align: middle; height: 16px;"></a></span>
 
 <span style="font-size: 12px; color: #666;">CoInteract introduces a Human-Aware Mixture-of-Experts and Spatially-Structured Co-Generation paradigm for physically-consistent human-object interaction video synthesis, achieving zero-overhead inference while significantly improving structural stability and interaction plausibility.</span>
 
@@ -74,7 +74,7 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 
 <a href="https://www.techrxiv.org/users/836049/articles/1228135-human-motion-video-generation-a-survey" style="font-size: 15px; color: #483D8B; text-decoration: none">**Human Motion Video Generation: A Survey**</a><br>
 <span style="font-size: 13px;">Haiwei Xue, **Xiangyang Luo**, Zhanghao Hu, Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Minglei Li, Jian Yang, Fei Ma, Changpeng Yang, Zonghong Dai, Fei Richard Yu </span><br>
-<span style="font-size: 13px;">[**Paper**](https://www.techrxiv.org/users/836049/articles/1228135-human-motion-video-generation-a-survey) [**Page**](https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation)</span>
+<span style="font-size: 13px;">[**Paper**](https://www.techrxiv.org/users/836049/articles/1228135-human-motion-video-generation-a-survey) [**Page**](https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation) <a href="https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation"><img src="https://img.shields.io/github/stars/Winn1y/Awesome-Human-Motion-Video-Generation?style=social&label=Star" alt="GitHub stars" style="vertical-align: middle; height: 16px;"></a></span>
 
 <span style="font-size: 12px; color: #666;">This survey provides a comprehensive review of human motion video generation methods, covering the latest techniques, applications, and future directions.</span>
 
@@ -86,7 +86,7 @@ My research interest includes: <span style="display:inline-block;padding:0.2em 0
 
 <a href="https://arxiv.org/abs/2407.06984" style="font-size: 15px; color: #483D8B; text-decoration: none">**CanonSwap: High-Fidelity and Consistent Video Face Swapping via Canonical Space Modulation**</a><br>
 <span style="font-size: 13px;">**Xiangyang Luo** , Ye Zhu†, Yunfei Liu, Lijian Lin, Cong Wan, Zijian Cai, Shao-Lun Huang†, Yu Li</span><br>
-<span style="font-size: 13px;">[**Paper**](https://arxiv.org/abs/2507.02691) [**Page**](https://luoxyhappy.github.io/CanonSwap/) [**Code**](https://github.com/Pixel-Talk/CanonSwap)</span>
+<span style="font-size: 13px;">[**Paper**](https://arxiv.org/abs/2507.02691) [**Page**](https://luoxyhappy.github.io/CanonSwap/) [**Code**](https://github.com/Pixel-Talk/CanonSwap) <a href="https://github.com/Pixel-Talk/CanonSwap"><img src="https://img.shields.io/github/stars/Pixel-Talk/CanonSwap?style=social&label=Star" alt="GitHub stars" style="vertical-align: middle; height: 16px;"></a></span>
 
 <span style="font-size: 12px; color: #666;">CanonSwap decouples motion information from appearance to enable high-fidelity and consistent video face swapping.</span>
 
